@@ -152,6 +152,7 @@ jQuery(document).ready(function($) {
                         // If the user's status was updated, show it.
                         if (typeof(json['StatusMessage']) != 'undefined')
                             $('#Status span').html(json['StatusMessage']);
+                            
                     }
                 }
             });

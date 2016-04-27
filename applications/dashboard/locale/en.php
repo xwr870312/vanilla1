@@ -155,6 +155,8 @@ oriented, threatening, invasive of a person's privacy, or otherwise violative
 of any law. You agree not to post any copyrighted material unless the
 copyright is owned by you.
 
+Studentbox is exclusively for the use of year 10, 11 & 12 students in Western Australia. Curtin University* ("Curtin University is a trademark of Curtin University of Technology") reserves the right to immediately terminate the registration of any person which is found to be false, misleading or the person is otherwise ineligible to register on Studentbox.
+
 We at this community also reserve the right to reveal your identity (or
 whatever information we know about you) in the event of a complaint or legal
 action arising from any message posted by you. We log all internet protocol

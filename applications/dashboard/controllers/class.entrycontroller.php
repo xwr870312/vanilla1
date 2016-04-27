@@ -418,6 +418,7 @@ EOT;
         }
 
         if (!UserModel::noEmail()) {
+
             if (!$this->Form->getFormValue('Email') || $this->Form->getFormValue('EmailVisible')) {
                 $this->Form->setFormValue('EmailVisible', true);
                 $this->Form->addHidden('EmailVisible', true);
