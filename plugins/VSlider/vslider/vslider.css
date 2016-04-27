@@ -1,0 +1,181 @@
+
+.box-holder {
+width: 100%;
+position: relative;
+height: auto;
+overflow: hidden;
+margin: 0 auto;
+top: 0;
+float: none;
+max-width: 980px;
+}
+
+.sliderbox {
+background:url(images/contnt.png)repeat 0 0;
+background-size:100% 100%;
+position:relative;
+z-index:10;
+height:auto;
+overflow:hidden;
+border:2px solid #52585d;
+padding:0;
+border-radius:5px;
+}
+
+.slider {
+height:395px;
+position:relative;
+overflow:hidden;
+width:100%;
+}
+
+.jcarousel-clip,.slider ul,.slider ul li {
+list-style:none;
+position:relative;
+width:936px;
+height:395px;
+}
+
+.slider ul li .cnt {
+padding-left:0;
+padding-right:20px;
+width:930px;
+}
+
+.slider ul li img {
+float:left;
+display:inline;
+width: 450px;
+height: 400px;
+}
+.slider ul li img:hover {
+opacity:0.8;
+background:url(images/tvdust.gif)repeat 0 0;
+}
+
+.slider-nav {
+position:absolute;
+bottom:3px;
+right:10px;
+}
+
+.slider-nav ul {
+float:right;
+display:inline;
+}
+
+.slider-nav ul li {
+float:left;
+display:inline;
+position:relative;
+}
+
+.slider-nav ul li a {
+background:#000;
+margin-left:3px;
+width:16px;
+height:16px;
+text-indent:-4000px;
+font-size:0;
+line-height:0;
+float:left;
+display:inline;
+position:relative;
+ border: 1px solid #00ffcc;
+border-radius:40px;
+-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.slider-nav ul li a:hover,.slider-nav ul li a.active {
+background: none repeat scroll 0 0 #00ffcc;
+border: 1px solid #52585d;
+border-radius: 40px;
+-moz-box-shadow: 0 0 5px #aaa;
+-webkit-box-shadow: 0 0 5px #aaa;
+box-shadow: 0 0 5px #aaa;
+}
+
+.information {
+float:right;
+width:415px;
+padding-right:12px;
+z-index:1000;
+padding-top:0;
+display:inline;
+}
+
+.information h2 {
+font-family: "Trebuchet MS",Arial,sans-serif;
+font-size: 45px;
+line-height: 1;
+padding-bottom: 16px;
+position: relative;
+text-align: center;
+text-shadow: 0 1px 0 #000000;
+text-transform: uppercase;
+top: -20px;
+color:#52585d;
+}
+
+.information h2 span {
+color:#00ffcc;
+}
+
+.information p {
+color: #52585d;
+font-size: 18px;
+padding-right: 40px;
+position: relative;
+text-align: left;
+top: -40px;
+font-family:"Trebuchet MS", Arial, sans-serif;
+}
+
+.purchase {
+height: auto;
+margin: 0;
+padding: 0;
+position: relative;
+top: 10px;
+width: 201px;
+}
+
+.purchase a {
+display:block;
+font-size:20px;
+line-height:1.5;
+text-align:center;
+width:175px;
+background-size:100% 100%;
+text-decoration:none;
+color:#fff;
+}
+a.Button{
+-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+background: url(images/contnt.png);
+background-repeat: repeat-x;
+border: 1px solid #666;
+border-radius: 3px 3px 3px 3px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 20px;
+font-weight: 700;
+margin: 0 0 10px;
+padding: 3px 6px;
+text-align: center;
+text-shadow: 0 1px 0 #666;
+}
+a.Button:hover{
+-moz-box-shadow: 0 0 5px #aaa;
+-webkit-box-shadow: 0 0 5px #aaa;
+box-shadow: 0 0 5px #aaa;
+color: #00ffcc;
+background: url(images/contnt.png)rgba(0,0,0,0.3);
+border: 1px solid #52585d;
+text-shadow: 0 1px 0 #000;
+}
